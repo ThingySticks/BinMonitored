@@ -1,0 +1,39 @@
+Partlist
+
+Exported from BinMonitored.sch at 09/09/2018 23:21
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                Package   Library             Sheet
+
+C1       4.7uF          4.7UF-0603-6.3V-(10%) 0603      SparkFun-Capacitors 1
+C2       0.1uF          0.1UF-0603-25V-5%     0603      SparkFun-Capacitors 1
+C3       0.1uF          0.1UF-0603-25V-5%     0603      SparkFun-Capacitors 1
+C4       0.1uF          0.1UF-0603-25V-5%     0603      SparkFun-Capacitors 1
+C5       0.1uF          0.1UF-0603-25V-5%     0603      SparkFun-Capacitors 1
+C6       0.1uF          0.1UF-0603-25V-5%     0603      SparkFun-Capacitors 1
+D0       TPSQTP10SQ     TPSQTP10SQ            TP10SQ    testpad             1
+D1       GREEN          LED-GREEN1206         LED-1206  SparkFun-LED        1
+D2       Red            LED-GREEN1206         LED-1206  SparkFun-LED        1
+GND      TPSQTP10SQ     TPSQTP10SQ            TP10SQ    testpad             1
+J1                      CONN_02-JST-2MM-SMT   JST-2-SMD SparkFun-Connectors 1
+R        TPSQTP10SQ     TPSQTP10SQ            TP10SQ    testpad             1
+R1       10k            10KOHM-0603-1/10W-1%  0603      SparkFun-Resistors  1
+R2       4.7k           4.7KOHM-0603-1/10W-1% 0603      SparkFun-Resistors  1
+R3       4.7k           4.7KOHM-0603-1/10W-1% 0603      SparkFun-Resistors  1
+R4                      RESISTOR0805          0805      SparkFun-Resistors  1
+R5                      RESISTOR0805          0805      SparkFun-Resistors  1
+R6       10k            10KOHM-0603-1/10W-1%  0603      SparkFun-Resistors  1
+R7       10k            10KOHM-0603-1/10W-1%  0603      SparkFun-Resistors  1
+R8                      RESISTOR0603          0603      SparkFun-Resistors  1
+R9                      RESISTOR0603          0603      SparkFun-Resistors  1
+RX       TPSQTP10SQ     TPSQTP10SQ            TP10SQ    testpad             1
+TX       TPSQTP10SQ     TPSQTP10SQ            TP10SQ    testpad             1
+U1       VL53L1XSMD     VL53L1XSMD            VL53L1X   SparkFun-Sensors    1
+U2       24LC256        EEPROM-I2CSMD         SO08      SparkFun-IC-Memory  1
+U3       MMA8452Q       MMA8452Q              QFN-16    SparkFun-Sensors    1
+U4       3.3V           V_REG_AP2112K-3.3V    SOT23-5   SparkFun-IC-Power   1
+U5       BME680         BME680                BME680    ThingySticks        1
+U6                      ESP-12E               ESP-12E   kanflo              1
