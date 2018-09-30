@@ -180,6 +180,10 @@ Day</text>
 <dimension x1="25.4" y1="0" x2="25.4" y2="25.4" x3="28.8" y3="12.7" textsize="1.778" layer="47"/>
 <dimension x1="12.7" y1="3.175" x2="0" y2="3.8" x3="6.35" y3="-5.6" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.7" y1="3.175" x2="12.3" y2="0" x3="-1.7" y3="1.5875" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="10.16" y1="19.05" x2="0" y2="18.2" x3="5.08" y3="35.5" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="10.16" y1="19.05" x2="9" y2="0" x3="-8.1" y3="9.525" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="10.16" y1="19.05" x2="10.2" y2="21.5" x3="-8.1" y3="20.275" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="10.16" y1="19.05" x2="11.7" y2="21" x3="10.93" y3="35.5" textsize="1.778" layer="47" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="ThingySticks">
@@ -1094,17 +1098,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="21.3975" y="22.463" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="23.495" y="22.987" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="17.145" y="9.525" smashed="yes" rot="R270">
+<element name="C5" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="17.145" y="9.525" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-08604" x="17.145" y="9.525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.145" y="11.3395" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="17.145" y="9.3345" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C6" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="21.59" y="1.905" smashed="yes">
+<element name="C6" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="21.59" y="1.905" smashed="yes">
 <attribute name="PROD_ID" value="CAP-08604" x="21.59" y="1.905" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.7505" y="1.8725" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="21.9505" y="2.295" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U2" library="SparkFun-IC-Memory" package="SO08" value="24LC256" x="4.445" y="3.81" smashed="yes">
+<element name="U2" library="SparkFun-IC-Memory" package="SO08" value="24LC512" x="4.445" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="IC-09714" x="4.445" y="3.81" size="1.778" layer="27" ratio="16" display="off"/>
 <attribute name="NAME" x="4.1275" y="5.3975" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="4.7625" y="4.445" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>

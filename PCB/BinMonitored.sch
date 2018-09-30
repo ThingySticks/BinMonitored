@@ -7674,13 +7674,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="1.0uF"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="1.0uF"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U2" library="SparkFun-IC-Memory" deviceset="EEPROM-I2C" device="SMD" value="24LC256"/>
+<part name="U2" library="SparkFun-IC-Memory" deviceset="EEPROM-I2C" device="SMD" value="24LC512"/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -7757,6 +7757,11 @@ over 10 bits (max 1023).</text>
 * Is it hot/cold or very wet?
 * How full is it?
 </text>
+<text x="198.12" y="154.94" size="1.778" layer="97">Conformal Coating:
+RS: 535-525
+https://uk.rs-online.com/web/p/conformal-coatings/0535525/</text>
+<text x="-76.2" y="-12.7" size="1.27" layer="97">Addr: 0x50</text>
+<text x="0" y="-50.8" size="1.27" layer="97">Addr: 0x1D</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="40.64" y="73.66"/>
